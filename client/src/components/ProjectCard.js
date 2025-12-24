@@ -17,9 +17,6 @@ export default ({ project }) => (
       {project.live && (
         <a href={project.live} className="btn primary">Live Demo</a>
       )}
-      {project.repo && (
-        <a href={project.repo} className="btn ghost">Code</a>
-      )}
     </div>
   </article>
 );

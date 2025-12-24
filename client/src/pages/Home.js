@@ -1,5 +1,6 @@
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -20,8 +21,8 @@ export default function Home() {
           </p>
 
           <div className="cta-group">
-            <a href="/projects" className="btn primary">View Projects</a>
-            <a href="/contact" className="btn ghost">Contact Me</a>
+            <Link to="/projects" className="btn primary">View Projects</Link>
+            <Link to="/contact" className="btn ghost">Contact Me</Link>
           </div>
         </div>
 
